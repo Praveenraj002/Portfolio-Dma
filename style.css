@@ -1,0 +1,56 @@
+* {
+    margin: 100;
+    padding: 100;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+a{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div{
+        margin-left: 100px;
+        text-align: none;
+        align-items:flex-start;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        margin-top: 50px
+        
+    };
+    img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100px;
+    };
+    p{
+        align-items:flex-start;
+        justify-content: none;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
